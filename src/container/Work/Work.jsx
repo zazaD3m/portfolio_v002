@@ -39,9 +39,16 @@ const Work = () => {
 
   return (
     <>
-      <h2 className="head-text">
-        My Creative <span>Portfolio </span>section
-      </h2>
+      <div className="app__work-header">
+        <h2 className="head-text">
+          My <span>Work </span>
+        </h2>
+        <div className="line"></div>
+        <p className="p-text">
+          Here are a few of my latest projects, I invite you to explore them.
+        </p>
+      </div>
+
       <div className="app__work-filter">
         {["UI/UX", "Web App", "Mobile App", "React JS", "All"].map(
           (item, index) => (

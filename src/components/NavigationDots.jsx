@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const NavigationDots = ({ active }) => {
   return (
     <div className="app__navigation">

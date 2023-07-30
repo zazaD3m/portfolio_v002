@@ -60,7 +60,6 @@ const Header = () => (
       transition={{ duration: 0.5, delayChildren: 0.5 }}
       className="app__header-main"
     >
-      {/* <img src={images.profile} alt="profile_bg" /> */}
       <section className="content">
         <h1>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer porta

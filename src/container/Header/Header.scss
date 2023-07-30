@@ -59,6 +59,7 @@
   .tag-cmp {
     padding: 1rem 2rem;
     border: var(--white-color);
+    background-color: rgba(255, 250, 250, 0.8);
     border-radius: 15px;
     flex-direction: row;
     width: auto;
@@ -191,7 +192,7 @@
     width: 50%;
     object-fit: contain;
     z-index: 1;
-    background-color: #edf2f8;
+    background-color: rgba(255, 250, 250, 0.8);
     border: var(--white-color);
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
@@ -209,11 +210,18 @@
     height: 90%;
   }
 
+  @media screen and (max-width: 1600px) {
+    .content {
+      background-color: rgba(255, 250, 250, 0.8);
+      width: 70%;
+      margin-top: 1.5rem;
+    }
+  }
   @media screen and (max-width: 1200px) {
     margin: 2rem 0;
 
     .content {
-      background-color: rgba(237, 242, 248, 0.5);
+      background-color: rgba(255, 250, 250, 0.8);
       width: 100%;
       margin-top: 1.5rem;
     }

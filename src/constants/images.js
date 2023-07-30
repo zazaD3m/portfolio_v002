@@ -18,6 +18,9 @@ import RestfulAPIs from "../assets/RestfulApis.png";
 // TOOLS skills
 import Git from "../assets/Git.png";
 import Netlify from "../assets/Netlify.png";
+import VScode from "../assets/VScode.png";
+import GitHub from "../assets/GitHub.png";
+import Sanity from "../assets/Sanity.png";
 
 import about01 from "../assets/about01.png";
 import about02 from "../assets/about02.png";
@@ -26,9 +29,6 @@ import about04 from "../assets/about04-compressed.png";
 
 import circle from "../assets/circle.svg";
 import logo from "../assets/Logo-final.png";
-
-import amazon from "../assets/amazon.png";
-import asus from "../assets/asus.png";
 
 export default {
   // FRONTEND SKILLS
@@ -49,7 +49,9 @@ export default {
   // TOOLS SKILLS
   Git,
   Netlify,
-
+  VScode,
+  GitHub,
+  Sanity,
   email,
   mobile,
   about01,
@@ -58,6 +60,4 @@ export default {
   about04,
   circle,
   logo,
-  amazon,
-  asus,
 };
